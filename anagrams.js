@@ -1,5 +1,3 @@
-const { words } = require('./words');
-
 function getAnagramsOf(input) {
     const result = [];
     const key = alphabetize(input);
@@ -14,5 +12,3 @@ function getAnagramsOf(input) {
 function alphabetize(a) {
     return a.toLowerCase().split("").sort().join("").trim();
 }
-
-module.exports = { getAnagramsOf };
