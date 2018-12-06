@@ -1,3 +1,5 @@
+use strict;
+
 function getAnagramsOf(input) {
     const result = [];
     const key = alphabetize(input);
